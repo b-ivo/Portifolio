@@ -1,0 +1,9 @@
+
+services:
+  - type: web
+    name: portifolio
+    runtime: node
+    repo: https://github.com/b-ivo/Portifolio
+    buildCommand: npm install && npm run build
+    startCommand: npm run preview
+    autoDeploy: true
