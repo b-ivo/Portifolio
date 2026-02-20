@@ -57,7 +57,7 @@
   }
 
   body {
-    background-color: var(--color-background);
+    background-color: #0f172a;
     color: var(--color-text);
     font-family: "Inter", sans-serif;
   }
