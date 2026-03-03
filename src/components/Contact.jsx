@@ -53,8 +53,9 @@ const Contact = () => {
     <section id="contact" className="min-h-screen py-24 relative overflow-hidden">
       {/* Background Animated Blobs */}
       <div className="absolute inset-0 pointer-events-none -z-10">
-        <div className="absolute top-1/4 -left-20 w-96 h-96 bg-indigo-500/10 rounded-full blur-[120px] animate-blob" />
-        <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-purple-500/10 rounded-full blur-[120px] animate-blob animation-delay-2000" />
+        <div className="absolute top-1/4 -left-20 w-96 h-96 bg-indigo-500/20 rounded-full blur-[120px] animate-blob" />
+        <div className="absolute bottom-1/4 -right-20 w-96 h-96 bg-purple-500/20 rounded-full blur-[120px] animate-blob animation-delay-2000" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-pink-500/10 rounded-full blur-[150px] animate-blob animation-delay-4000" />
       </div>
 
       <div className="max-w-6xl mx-auto px-6 relative z-10">

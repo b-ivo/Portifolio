@@ -4,12 +4,10 @@ import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import ParticlesCanvas from "./components/ParticlesCanvas";
 
 function App() {
   return (
     <div className="relative bg-slate-900 selection:bg-indigo-500 selection:text-white">
-      <ParticlesCanvas />
       <NavBar />
       <Home />
       <About />
